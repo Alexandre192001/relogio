@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-wrapper {
+  background-image: linear-gradient(135deg, #002, #036, #024);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Quicksand";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-wrapper .container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  background-color: #024;
+  height: 18rem;
+  align-items: center;
+  box-shadow: inset 2px 2px 1rem #000;
+  border-radius: 0.4rem;
+}
+.container-wrapper .container .titulo-relogio {
+  position: absolute;
+  top: 1rem;
+}
+.container-wrapper .container .card-relogio {
+  overflow: hidden;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #2f5070;
+  padding: 1rem;
+  border-radius: 20%;
+  box-shadow: inset 2px 2px 1rem #000, 1px 1px 1rem #fff;
+}
+
+@media (max-width: 1045px) {
+  .container-wrapper .container .card-relogio h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 560px) {
+  .container-wrapper .container {
+    height: 35rem;
+    flex-direction: column;
+  }
+  .container-wrapper .container .titulo-relogio {
+    top: 0rem;
+  }
+  .container-wrapper .container .card-relogio {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
