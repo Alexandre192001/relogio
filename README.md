@@ -1,4 +1,4 @@
-<h1>Relógio </h1>
+<h1>Relógio Digital </h1>
 <hr>
 <h2>Linguagens Utilizadas:</h2>
 
